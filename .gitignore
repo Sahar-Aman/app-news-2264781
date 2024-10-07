@@ -1,0 +1,32 @@
+ 
+# Ignore node_modules directory (installed packages)
+node_modules/
+
+# Ignore environment configuration files (add these if they contain sensitive information)
+src/environments/environment*.ts
+
+# Ignore output folders
+/dist/
+/build/
+
+# Ignore compiled TypeScript files
+*.js
+*.js.map
+
+# Ignore Angular-specific config files that are regenerated
+.angular/
+.angular/cache/
+
+# Ignore coverage reports
+coverage/
+
+# Ignore temporary files created by the OS or editors
+*.log
+.DS_Store
+Thumbs.db
+.cache/
+.anaconda/
+Application Data/
+Cookies/
+Local Settings/
+My Documents/
